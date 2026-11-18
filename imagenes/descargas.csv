@@ -1,0 +1,10 @@
+﻿URL de imagen,Archivo local,Estado,Tamaño (bytes)
+http://localhost:8080/img/logo.png,imagen_001_2.png,Correcto,338
+http://localhost:8080/img/foto.jpg,imagen_002_2.jpg,Correcto,980
+http://localhost:8080/img/sin-comillas.gif,imagen_003_2.gif,Correcto,235
+http://localhost:8080/redir/otra.png,imagen_004_2.png,Correcto,338
+http://localhost:8080/img/no-existe.png,—,Error HTTP 404,0
+http://localhost:8080/img/falso.png,—,el recurso no es una imagen (text/html),0
+http://localhost:8080/img/enorme.png,—,supera el límite de 10 MB,0
+http://localhost:8080/img/enorme-cl.png,—,supera el límite de 10 MB (Content-Length: 11534336),0
+http://localhost:8080/img/otra.png,imagen_009_2.png,Correcto,338
